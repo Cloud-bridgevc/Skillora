@@ -1,0 +1,20 @@
+/* Skillora theme */
+:root {
+  --pp-accent: #6d28d9;
+  --pp-accent-hover: #5b21b6;
+  --pp-accent2: #fcd34d;
+  --pp-ink: #1c1430;
+  --pp-muted: #594f6e;
+  --pp-paper: #f8f6fc;
+  --pp-tint: #efeaf8;
+  --pp-card: #ffffff;
+  --pp-line: #e0d9ee;
+  --pp-dark: #1e1038;
+  --pp-dark-ink: #f4f0fc;
+  --pp-serif: 'Bricolage Grotesque', system-ui, sans-serif;
+  --pp-sans: 'Inter', system-ui, sans-serif;
+  --pp-mono: 'JetBrains Mono', ui-monospace, monospace;
+  --pp-display-weight: 600;
+}
+h1, h2, .pp h2, .pp-manifesto-text, .pp-timeline h3 { font-weight: 600; letter-spacing: -.04em; }
+.pp-letter-body { font-family: var(--pp-sans); font-size: clamp(17px, 1.5vw, 20px); }
